@@ -3,9 +3,87 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio||Web Designer|| CV</title>
+    <title>My Portfolio||CV||Web designer</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1></h1>
+    <!-- Header -->
+    <header class="bg-gray-800 text-white p-4">
+        <div class="container mx-auto flex justify-between items-center">
+            <h1 class="text-2xl font-bold">Hello,I`m Molonket Caleb</h1>
+            <nav>
+                <a href="#about" class="mr-4">About</a>
+                <a href="#work" class="mr-4">Projects</a>
+                <a href="#contact" class="mr-4">Contact</a>
+                <a href="#teamwork">Teamwork</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main.content ">
+        <!-- About Scn -->
+        <section id="about">
+            <h2 class="text-3xl font-bold mb-4">About Me</h2>
+            <section class="flex">
+            <p class="text-lg">I am a software engineer with one month of experience in software engineering. I am passionate about learning new technologies and building efficient and scalable applications.</p>
+            <div class="image">
+                <img src="https://media.istockphoto.com/id/1435220822/photo/african-american-software-developer.jpg?s=1024x1024&w=is&k=20&c=htyLzgrvGN1McCRuSkQIrG1BuBmNLJUR-nBBKxb86ko=" width="100%" border-radius="100px" />
+            </div>
+        </section>
+        </section>
+
+        <!-- Project Scn -->
+        <section id="work" class="my-8">
+            <h2 class="text-3xl font-bold mb-4">Projects</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+                <div class="bg-gray-800 p-4 rounded shadow-md flex flex-col">
+                    <img src="https://nevonprojects.com/wp-content/uploads/2022/04/online-blood-bank-dotnet-smpg.jpg" alt="Project One" class="mb-4 rounded">
+                    <h3 class="text-xl font-bold mb-2">Project One</h3>
+                    <p class="text-lg mb-2"> This project is about online-blood-bank-dotnet</p>
+                    <a href="https://nevonprojects.com/online-blood-bank-project-php/" class="text-blue-600 hover:underline">View Project</a>
+                </div>
+                <div class="bg-gray-800 p-4 rounded shadow-md flex flex-col">
+                    <img src="https://nevonprojects.com/wp-content/uploads/2022/04/android-spy-camera-smpg.jpg" alt="Project Two" class="mb-4 rounded">
+                    <h3 class="text-xl font-bold mb-2">Project Two</h3>
+                    <p class="text-lg mb-2"> This project involves hacking android-spy-camera</p>
+                    <a href="https://nevonprojects.com/wp-content/uploads/2022/04/android-spy-camera-smpg.jpg" class="text-blue-600 hover:underline">View Project</a>
+                </div>
+                
+            </div>
+        </section>
+
+        <!-- Contact Scn-->
+        <section id="contact" class="my-8">
+            <h2 class="text-3xl font-bold mb-4">Contact</h2>
+            <form id="form" class="bg-gray-800 p-4 rounded shadow-md">
+                <div class="mb-4">
+                    <label for="name" class="block text-sm font-bold mb-2">Name</label>
+                    <input type="text" id="name" class="w-full p-2 border border-gray-600 rounded bg-gray-700 text-white" required>
+                </div>
+                <div class="mb-4">
+                    <label for="email" class="block text-sm font-bold mb-2">Email</label>
+                    <input type="email" id="email" class="w-full p-2 border border-gray-600 rounded bg-gray-700 text-white" required>
+                </div>
+                <div class="mb-4">
+                    <label for="msg" class="block text-sm font-bold mb-2">Message</label>
+                    <textarea id="msg" class="w-full p-2 border border-gray-600 rounded bg-gray-700 text-white" rows="4" required></textarea>
+                </div>
+                <button type="submit" class="send-button">Send</button>
+            </form>
+        </section>
+        <section id="teamwork"> 
+             <Div>
+            <h3 class="teamwork">Teamwork</h3>
+            <table>
+                <tr>
+                    <th><img src="https://media.istockphoto.com/id/1176842849/photo/over-the-shoulder-shot-of-engineer-working-with-cad-software-on-desktop-computer-screen-shows.jpg?s=1024x1024&w=is&k=20&c=oJgJInqEZDEgipRa5wTZmfrJw0wZbQNF3hfyjGLQnXY=" width="90%"/></th>
+                    <th><img src="https://media.istockphoto.com/id/1354205084/photo/diverse-group-of-professionals-meeting-in-modern-office-brainstorming-it-programmers-use.jpg?s=1024x1024&w=is&k=20&c=D-8JCm5sSS9gObbT_rHy5fwpw2mvcVs7nup0Xa3hjxM=" width="90%"/></th>
+                </tr>
+            </table>
+           </Div>
+        </section>  
+    </main>
 </body>
 </html>

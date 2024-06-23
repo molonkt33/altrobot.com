@@ -1,0 +1,56 @@
+body {
+    background-color: #000;
+    color: #fff;
+    font-family:  'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header {
+    background-color: #2d3748;
+    color: #fff;
+    background-size: 800%;
+}
+
+footer {
+    background-color: #2d3748;
+    color: #fff;
+}
+
+#form {
+    background-color: #2d3748;
+}
+
+#form input,
+#form textarea {
+    background-color: #4a5568;
+    border-color: #718096;
+    color: #fff;
+}
+
+#form label {
+    color: #fff;
+}
+.image{
+    display: flex;
+}
+.teamwork{
+    
+    font-size: 200%;
+    font-family: serif;
+    color: white;
+
+}
+.main.content {
+   container: mx-auto p-4;
+
+}
+.class {
+    display: flex;
+}
+#about {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.send-button {
+    background-color: blue ;
+    text-decoration-color:white ;
+     border-radius: 50px;
+}
